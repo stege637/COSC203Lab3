@@ -2,6 +2,10 @@
 <html>
     <html lang="en">
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
         <meta charset="UTF-8">
         <title>Polly's Travel Blog</title>
     </head>
@@ -10,7 +14,7 @@
             <h1>Polly's Travel Blog!</h1>
         </header>
         <nav>
-            <h2>Navigation</h2>
+            <h2 class="first" >Navigation</h2>
             <ul>
                 <li>
                     <a href="#!">Home</a>
@@ -25,12 +29,12 @@
         </nav>
         <main>
             <section>
-                <h2>🐧 Polly the Penguin 🐧</h2>
-                <img src="polly.jpg" alt="Photo of Polly" />
+                <h2 class="second">🐧 Polly the Penguin 🐧</h2>
+                <img src="polly.jpg" class="penguin" alt="Photo of Polly" />
                 <p>Stories about my life as a penguin!</p>
             </section>
             <section>
-                <h2>Leaving home</h2>
+                <h2 class="third">Leaving home</h2>
                 <p>Today I travel for Antarctica!</p>
                 <p>I will bring my favourite scarf.</p>
             </section>
@@ -39,4 +43,37 @@
             <p>© Copyright 2022 by Polly. No rights reversed.</p>
         </footer>
     </body>
+
+    <figure class="one">
+        <img src="polly.jpg" id = "peng_one" alt="Photo of Polly"/>
+        <figcaption>invert 122%</figcaption>
+    </figure>
+    <figure class="one">
+        <img src="polly.jpg" id = "peng_two" alt="Photo of Polly"/>
+        <figcaption>hue-rotate 150 deg</figcaption>
+    </figure>
+    <figure class="one">
+        <img src="polly.jpg" id = "peng_three" alt="Photo of Polly"/>
+        <figcaption>brightness 55% sepia 100% invert 22%</figcaption>
+    </figure>
+    <figure class="one">
+        <img src="polly.jpg" id = "peng_four" alt="Photo of Polly"/>
+        <figcaption>opacity 33% sepia 66% hue-rotate 52 deg</figcaption>
+    </figure>
+    <figure class="two">
+        <img src="polly.jpg" id = "peng_five" alt="Photo of Polly"/>
+        <figcaption>hue-rotate 255 deg saturate 225%</figcaption>
+    </figure>
+    <figure class="two">
+        <img src="polly.jpg" id = "peng_six" alt="Photo of Polly"/>
+        <figcaption>grayscale 76%</figcaption>
+    </figure>
+    <figure class="two">
+        <img src="polly.jpg" id = "peng_seven" alt="Photo of Polly"/>
+        <figcaption>brightness 125% contrast 350%</figcaption>
+    </figure>
+    <figure class="two">
+        <img src="polly.jpg" id = "peng_eight" alt="Photo of Polly"/>
+        <figcaption>sepia 80% invert 80%</figcaption>
+    </figure>
 </html>

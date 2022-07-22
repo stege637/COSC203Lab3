@@ -1,0 +1,146 @@
+* {
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+h1{
+    background: blue;
+}
+
+h2{
+    background: aqua;
+}
+
+p{
+    background: blueviolet;
+}
+
+a{
+    background: azure;
+}
+
+body{
+    background: dimgrey;
+}
+
+header{
+    background: gold;
+}
+
+nav{
+    background: mediumvioletred;
+}
+
+main{
+    background: red;
+}
+
+footer{
+    background: seagreen;
+}
+
+.first{
+    color: limegreen;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-style: italic;
+    text-shadow: 3px 3px 10px black;
+}
+
+.second{
+    color: navy;
+    font-size: 20pt;
+    font-weight: lighter;
+    font-style: normal;
+    text-shadow: 3px 3px 10px black;
+}
+
+.third{
+    color: crimson;
+    font-size: 15pt;
+    font-weight: bolder;
+    text-shadow: 3px 3px 10px black;
+}
+
+.penguin{
+    display: block;
+    margin: auto;
+    margin-left: auto;  
+    margin-right: auto;
+    border: 10px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0cm 0cm;
+    border-radius: 50%;
+    box-shadow: 10px 8px 5px 10px black;
+}
+
+.one{
+    display: inline-block;
+    line-height: 1cm;
+    vertical-align: auto;
+}
+
+.two{
+    display: inline-block;
+    line-height: 1cm;
+    vertical-align: auto;
+}
+
+#peng_one{
+    filter: invert(122%);
+}
+
+#peng_two{
+    filter: hue-rotate(150deg);
+}
+
+#peng_three{
+    filter: brightness(55%) sepia(100%) invert(22%);
+}
+
+#peng_four{
+    filter: opacity(33%) sepia(66%) hue-rotate(52deg);
+}
+
+#peng_five{
+    filter: hue-rotate(255deg) saturate(225%);
+}
+
+#peng_six{
+    filter: grayscale(76%);
+}
+
+#peng_seven{
+    filter: brightness(125%) contrast(350%);
+}
+
+#peng_eight{
+    filter: sepia(80%) invert(80%);
+}
+
+header {
+    position: relative;
+    height: 80px;
+}
+h1 {
+    position: absolute;
+    left: 1px;
+    top: 1px;
+}
+
+footer {
+    text-align: center;
+    padding: 1px;
+}
+
+figcaption{
+    position: relative;
+    text-align: center;
+    font-size: 13pt;
+    top: -70px;
+    font-style: italic;
+    text-shadow: 4px 4px 10px black;
+    background-color:chocolate;
+}
